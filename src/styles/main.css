@@ -1,0 +1,116 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Pacifico&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: 'Bad Script', cursive;
+    width: 100vw;
+    height: 3rem;
+    background-color: #AC7D88;
+    color: #F8ECD1;
+    position: sticky;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+svg {
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #F8ECD1;
+}
+
+.nav-links {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #F8ECD1;
+    padding: 8px;
+    border: none;
+    font-family: 'Bad Script', cursive;
+    border-radius: 8px;
+}
+
+button a {
+    color: black;
+}
+
+button:hover {
+    font-weight: bold;
+    -webkit-box-shadow: 1px 2px 16px 2px rgba(248,236,209,0.63); 
+    box-shadow: 1px 2px 16px 2px rgba(248,236,209,0.63);
+}
+
+.address {
+    width: 12rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.social-media {
+    margin-bottom: 3rem;
+}
+
+.bg-container {
+    width: 83.6vw;
+    height: 100vh;
+    background-image: url(/src/images/images-home/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.right-section {
+    width: 50%;
+    height: 100vh;
+    background-color: #f8ecd1cc;
+    position: absolute;
+    right: 0px;
+}
+
+@media (min-width:1024px) {
+    nav {
+        font-family: 'Bad Script', cursive;
+        width: 15rem;
+        height: 100vh;
+        background-color: #AC7D88;
+        color: #F8ECD1;
+        position: sticky;
+        left: 0px;
+        top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        z-index: 1;
+    }
+    .logo {
+        margin-top: 3rem;
+        font-family: 'Pacifico', cursive;
+        font-size: 3rem;
+        margin-bottom: -30px;
+        margin-left: 25px;
+    }
+    
+    .logo1 {
+        font-family: 'Pacifico', cursive;
+        font-size: 3rem;
+        margin-top: 0;
+        margin-right: 45px;
+    }
+}
+
