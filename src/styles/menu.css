@@ -1,7 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Dancing+Script:wght@600&family=IBM+Plex+Serif:wght@700&family=Josefin+Sans:wght@300;400;700&family=Jura:wght@500;700&family=Open+Sans:wght@300&family=Pacifico&family=Poppins&family=Rubik+Mono+One&family=Space+Mono&family=Work+Sans&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+.logo,
+.logo1 {
+  font-size: medium;
+  font-family: "Pacifico", cursive;
+  margin-left: 1rem;
+}
+.logo {
+  margin-bottom: -10px;
+}
+nav {
+  font-family: "Bad Script", cursive;
+  width: 100vw;
+  height: 3.5rem;
+  background-color: #ac7d88;
+  color: #f8ecd1;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: smaller;
+}
+svg {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: #f8ecd1;
+}
+.nav-links {
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  height: 2rem;
+  background-color: #f8ecd1;
+  padding: 5px;
+  border: none;
+  font-family: "Bad Script", cursive;
+  border-radius: 8px;
+  font-size: smaller;
+}
+button a {
+  color: black;
+}
+button:hover {
+  font-weight: bold;
+  -webkit-box-shadow: 1px 2px 16px 2px rgba(248, 236, 209, 0.63);
+  box-shadow: 1px 2px 16px 2px rgba(248, 236, 209, 0.63);
+}
+.address {
+  display: none;
+}
+.social-media {
+  padding-right: 20px;
+}
+.social-media p {
+  display: none;
+}
+i:hover {
+  color: #deb6ab;
 }
 
 header {
@@ -21,26 +89,50 @@ p {
   margin: 10px;
   letter-spacing: 1.5px;
   line-height: 1.8;
+  font-family: "Work Sans", sans-serif;
 }
 
 h4 {
   letter-spacing: 2px;
   margin: 5px;
+  font-family: "Work Sans", sans-serif;
 }
 h2 {
   text-align: center;
   margin: 15px;
+  font-family: "Bad Script", cursive;
 }
 
 em {
   font-size: 12px;
 }
 
+.top-header {
+  font-size: 40px;
+  color: #f8ecd1;
+  font-weight: 900;
+  font-family: "Pacifico", cursive;
+}
+
 .container {
+}
+body {
+  display: flex;
+}
+
+.intro {
+  color: #f8ecd1;
+  font-weight: 900;
+}
+
+.number {
+  color: #ac7d88;
+  font-weight: 900;
 }
 
 .opening-hours {
   margin: 15px;
+  color: #f8ecd1;
 }
 
 .img1 {
@@ -90,4 +182,161 @@ em {
 }
 
 .text1 {
+}
+
+@media only screen and (min-width: 768px) {
+  .img2,
+  .img4,
+  .img6,
+  .img8 {
+    float: right;
+    width: 300px;
+    height: 300px;
+  }
+  .img1,
+  .img3,
+  .img5,
+  .img7 {
+    float: left;
+    width: 300px;
+    height: 300px;
+  }
+  .text1,
+  .text3,
+  .text5,
+  .text7 {
+    width: 350px;
+    height: 350px;
+    float: right;
+  }
+  .wrap1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .wrap2 {
+    display: flex;
+    font-size: 12px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .wrap3 {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+  }
+
+  .wrap4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .wrap5 {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+  }
+
+  .wrap6 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+    justify-content: space-around;
+  }
+  .wrap7 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .wrap8 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    width: 80%;
+    margin-left: 300px;
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7,
+  .img8 {
+    height: 350px;
+    width: 350px;
+  }
+
+  .wrap1,
+  .wrap2,
+  .wrap3,
+  .wrap4,
+  .wrap5,
+  .wrap6,
+  .wrap7,
+  .wrap8 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  nav {
+    font-family: "Bad Script", cursive;
+    width: 15rem;
+    height: 100vh;
+    background-color: #ac7d88;
+    color: #f8ecd1;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    font-size: large;
+  }
+  .logo {
+    margin-top: 3rem;
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    margin-bottom: -30px;
+    margin-left: 25px;
+  }
+  .logo1 {
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-right: 45px;
+  }
+  svg {
+    height: 100px;
+    display: inline;
+  }
+  nav:hover svg {
+    transform: rotate(-25deg);
+  }
+  i {
+    font-size: 25px;
+  }
+  .nav-links {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .address {
+    width: 12rem;
+    font-family: "Work Sans", sans-serif;
+    display: inline;
+  }
+  .social-media {
+    margin-bottom: 3rem;
+  }
+  .social-media p {
+    display: block;
+  }
 }
