@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Bad Script;
+   
+
+}
+p{
+   font-family: 'Work Sans', sans-serif;
+}
+.section-1{
+    display: flex;
+    background-image: url(../images/cafe3-subheader1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    justify-content: space-around;
+    text-align: center;
+   
+}
+.section-2 {
+   
+ 
+   align-items: center;
+}
+.out-team{
+    text-align: center;
+    font-family: cursive;
+    color: rgb(222, 182, 171);
+}
+
+form{
+    display: block;
+    text-align: center;
+}
+
+.opentime{
+background-color: rgba(211, 165, 81, 0.31);
+padding: 10px;
+border-radius: 8px;
+}
+
