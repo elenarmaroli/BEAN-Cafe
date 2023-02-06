@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 .logo, .logo1 {
     font-size:small;
     font-family: 'Pacifico', cursive;
@@ -155,7 +156,7 @@ footer {
     align-items: center;
     font-family: 'Work Sans', sans-serif;
     color: #85586F;
-    font-size: smaller;
+    font-size: 14px;
 }
 
 @media (min-width:1024px) {
