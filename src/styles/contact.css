@@ -141,7 +141,7 @@ h5 {
 
 footer {
   width: 100vw;
-  height: 5rem;
+  height: 2rem;
   background-color: #f8ecd1;
   display: flex;
   justify-content: center;
@@ -197,9 +197,10 @@ label {
     margin-right: 45px;
   }
   svg {
-    height: 70px;
+    height: 100px;
     display: inline;
     margin-bottom: 15px;
+    margin-top: 25px;
   }
   nav:hover svg {
     transform: rotate(-25deg);
@@ -234,10 +235,5 @@ label {
   }
   .contact {
     margin-right: 50px;
-  }
-  footer {
-    border: 2px solid red;
-    width: 100vw;
-    height: 5rem;
   }
 }
