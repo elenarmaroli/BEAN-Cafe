@@ -26,8 +26,8 @@ body {
   display: block;
   margin: 10px;
   padding: 25px;
-  border: 2px solid rgb(218, 137, 137);
-  background-color:#AC7D88 ;
+ 
+  background-color:;
  
 }
 .box1 h1 {
@@ -35,17 +35,18 @@ body {
   padding: 5px;
   
   text-align: center;
-  color:#f8ecd1 ;
-  font-family: "Bad Script", cursive;
+  color: #AC7D88;
+  font-family: "Pacifico", cursive;
   font-weight: bold;
   text-decoration: underline;
 }
 .box1 h2,
 h3 {
-  font-family: "Pacifico", cursive;
+  
   font-size: 35px;
   color: rgb(133, 88, 111);
   text-align: center;
+  font-family: "Bad Script", cursive;
 }
 .box1 p {
   text-align: center;
@@ -56,16 +57,16 @@ h3 {
 }
 
 .about2 {
-  background: linear-gradient(0deg, rgb(66, 17, 17), rgb(241, 179, 179));
+ 
   padding: 20px;
   margin: 10px;
-  color: #f8ecd1;
-  box-shadow: -5px -2px 10px 2px rgb(38, 51, 2);
+  color:;
+ 
   margin-left: 15px;
   
 }
 
-.about2 h2 {
+.about2  {
   font-family: "Pacifico", cursive;
   font-size: 20px;
   margin: 10px;
@@ -88,7 +89,7 @@ h3 {
 }
 .section3 {
   width: 100%;
- background:#AC7D88 ;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,6 +108,12 @@ h3 {
     height: 150px;
     
     
+    
+}
+.sec1,.sec2,.sec3,.sec4{
+  font-family: "Work Sans", sans-serif;
+    width: 250px;
+    height: 300px;
 }
 .section3 h2 {
   font-family: "Pacifico", cursive;
@@ -129,7 +136,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:#AC7D88 ;
+  
   flex-wrap: wrap;
   
 }
@@ -146,13 +153,15 @@ section h1 {
     width: 350px;
     height: 350px;
     margin-top: 10px;
-   
+    border-radius:50% ;
+    
 }
 
 
 .section4 h2 {
-  font-family: "Pacifico", cursive;
-  color:#f8ecd1;
+  
+  font-family: "Work Sans", sans-serif;
+  
   text-align: center;
 }
 .logo, .logo1 {
