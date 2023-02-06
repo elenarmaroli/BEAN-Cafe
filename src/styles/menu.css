@@ -246,11 +246,13 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
+    padding-right: 30px;
   }
   .wrap5 {
     display: flex;
     font-size: 12px;
     justify-content: space-around;
+    padding-bottom: 30px;
   }
 
   .wrap6 {
@@ -268,10 +270,17 @@ footer {
     flex-direction: row-reverse;
     justify-content: space-around;
   }
+
+  .container {
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-bottom: 30px;
+  }
 }
+
 @media (min-width: 1024px) {
   .container {
-    width: 80%;
+    width: 70%;
     margin-left: 300px;
   }
 
