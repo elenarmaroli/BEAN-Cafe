@@ -236,4 +236,7 @@ label {
   .contact {
     margin-right: 50px;
   }
+  .box1 {
+    border: 2px solid red;
+  }
 }
