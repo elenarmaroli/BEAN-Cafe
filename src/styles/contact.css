@@ -177,7 +177,7 @@ label {
     align-items: center;
     text-align: center;
     z-index: 1;
-    font-size: large;
+    font-size: 15px;
   }
   main {
     width: calc(100% - 15rem);

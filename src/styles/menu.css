@@ -12,7 +12,7 @@
   margin-left: 1rem;
 }
 .logo {
-  margin-bottom: -10px;
+  margin-bottom: 0px;
 }
 nav {
   font-family: "Bad Script", cursive;
@@ -335,7 +335,7 @@ footer {
   .logo1 {
     font-family: "Pacifico", cursive;
     font-size: 3rem;
-    margin-top: 0;
+    margin-top: -30px;
     margin-right: 45px;
   }
   svg {

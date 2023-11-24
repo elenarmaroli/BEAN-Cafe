@@ -1,0 +1,319 @@
+@import "https://fonts.googleapis.com/css2?family=Pacifico&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Bad+Script&family=Pacifico&family=Work+Sans&display=swap";
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.about1 {
+  background: #f5f4f1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.box1 {
+  margin: 10px;
+  padding: 25px;
+  display: block;
+}
+
+.box1 h1 {
+  text-align: center;
+  color: #ac7d88;
+  padding: 5px;
+  font-family: Pacifico, cursive;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.box1 h2, h3, h4 {
+  color: #85586f;
+  text-align: center;
+  font-family: Bad Script, cursive;
+  font-size: 26px;
+}
+
+.box1 p {
+  text-align: center;
+  padding: 3px;
+  font-family: Work Sans, sans-serif;
+  font-size: 25px;
+}
+
+.about2 {
+  margin: 10px;
+  padding: 20px;
+  font-family: Pacifico, cursive;
+  font-size: 20px;
+}
+
+.img1, .img2, .img3 {
+  width: 350px;
+  height: 350px;
+}
+
+.about2 {
+  text-align: center;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  display: flex;
+}
+
+.section3 {
+  width: 100%;
+  text-align: center;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 10px 25px;
+  padding: 10px;
+  display: flex;
+}
+
+.secimg1, .secimg2, .secimg3, .secimg4 {
+  width: 150px;
+  height: 150px;
+}
+
+.sec1, .sec2, .sec3, .sec4 {
+  width: 250px;
+  height: 300px;
+  font-family: Work Sans, sans-serif;
+}
+
+.section3 h2 {
+  color: #0a2d4b;
+  font-family: Pacifico, cursive;
+  font-size: 20px;
+}
+
+.section3 p {
+  color: #85586f;
+  font-size: 20px;
+}
+
+.section3 img {
+  margin-top: 50px;
+}
+
+.section4 {
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  display: flex;
+}
+
+section h1 {
+  color: #deb6ab;
+  text-align: center;
+  margin: 50px;
+  font-family: Bad Script, cursive;
+  font-size: 35px;
+}
+
+.sec4img1, .sec4img2, .sec4img3, .sec4img4 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.section4 h2 {
+  text-align: center;
+  font-family: Work Sans, sans-serif;
+}
+
+.logo, .logo1 {
+  margin-left: 1rem;
+  font-family: Pacifico, cursive;
+  font-size: small;
+}
+
+.logo {
+  margin-bottom: -10px;
+}
+
+nav {
+  width: 100vw;
+  height: 3.5rem;
+  color: #f8ecd1;
+  z-index: 1;
+  background-color: #ac7d88;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: Bad Script, cursive;
+  font-size: 15px;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+svg {
+  display: none;
+}
+
+a {
+  color: #f8ecd1;
+  text-decoration: none;
+}
+
+.nav-links {
+  width: 15rem;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+button {
+  height: 2rem;
+  background-color: #f8ecd1;
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  font-family: Bad Script, cursive;
+  font-size: smaller;
+}
+
+button a {
+  color: #000;
+}
+
+button:hover {
+  font-weight: bold;
+  box-shadow: 1px 2px 16px 2px #f8ecd1a1;
+}
+
+.address {
+  display: none;
+}
+
+.social-media {
+  padding-right: 20px;
+}
+
+.social-media p {
+  display: none;
+}
+
+i:hover {
+  color: #deb6ab;
+}
+
+.texti {
+  text-indent: 50px;
+  letter-spacing: 5px;
+  line-height: 1.8;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-container {
+    width: 90%;
+    margin-left: 15rem;
+  }
+
+  nav {
+    width: 15rem;
+    height: 100vh;
+    color: #f8ecd1;
+    text-align: center;
+    z-index: 1;
+    background-color: #ac7d88;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Bad Script, cursive;
+    font-size: large;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  .logo {
+    margin-top: 3rem;
+    margin-bottom: -30px;
+    margin-left: 25px;
+    font-family: Pacifico, cursive;
+    font-size: 3rem;
+  }
+
+  .logo1 {
+    margin-top: 0;
+    margin-right: 45px;
+    font-family: Pacifico, cursive;
+    font-size: 3rem;
+  }
+
+  svg {
+    height: 100px;
+    display: inline;
+  }
+
+  nav:hover svg {
+    transform: rotate(-25deg);
+  }
+
+  i {
+    font-size: 25px;
+  }
+
+  .nav-links {
+    height: 10rem;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .address {
+    width: 12rem;
+    font-family: Work Sans, sans-serif;
+    display: inline;
+  }
+
+  .social-media {
+    margin-bottom: 3rem;
+  }
+
+  .social-media p {
+    display: block;
+  }
+}
+
+.about2, .section3, .section4 {
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+}
+
+footer {
+  width: 100vw;
+  height: 2rem;
+  color: #85586f;
+  background-color: #f8ecd1;
+  justify-content: center;
+  align-items: center;
+  font-family: Work Sans, sans-serif;
+  font-size: smaller;
+  display: flex;
+}
+
+.box1 {
+  width: 80%;
+}
+
+/*# sourceMappingURL=about.56e07b1d.css.map */
